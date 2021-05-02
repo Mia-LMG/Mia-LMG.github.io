@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Mia-LMG/Mia-LMG.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [MeiguangILU on GitHub](https://github.com/Mia-LMG/Mia-LMG.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [MeiguangLIU](https://MeiguangLIU.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -28,7 +28,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### MeiguangLIU Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mia-LMG/Mia-LMG.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
