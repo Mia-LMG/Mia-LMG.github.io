@@ -1,0 +1,82 @@
+  
+/* 
+修改显示不全
+*/
+*{
+    /* 新加的代码 */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    /* 这里放入你的背景图片  需要加center*/
+    background: url(./assets/img/重庆夜景1.jpg) no-repeat center;
+    
+    /* 这里改成flex布局
+    新加的代码
+    */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.box {
+    /* 继承父盒子的宽度 如果是设置百分比的话 */
+    width: 25%;
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    margin-top:2%;
+    text-align: center;
+    color: white;
+}
+
+.box img {
+    /* 设置图片的大小 */
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: justify;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box ul li {
+    list-style: none;
+}
+
+.box li a {
+    /* 这里图标是字体形式放进去的所以我们要修改的是字体的大小 */
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    transition: all ease-in-out 300ms;
+}
+
+
+/* 最后加一个动画,其实很简单 */
+
+.box li a:hover {
+    color: #b9b9b9;
+}
